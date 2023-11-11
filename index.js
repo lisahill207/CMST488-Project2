@@ -1,7 +1,7 @@
 const express = require("express");
 const homeController = require("./controllers/homeController");
 const layouts = require("express-ejs-layouts");
-const PORT = 3000;
+const PORT = 8000;
 
 // Init Express app
 const app = express();

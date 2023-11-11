@@ -23,9 +23,9 @@ exports.showBio = (req, res) => {
   // skills
   res.render("bio", {
     title: "Lisa's bio",
-    intro: "Lisa's bio intro",
-    expertise: "Lisa's expertise",
-    goals: "Lisa's goals are...",
-    skills: "Lisa's skills are...",
+    intro: "Lisa Hill: Front-End Developer",
+    expertise: "Lisa's expertise is in creating dynamic websites",
+    goals: "Lisa's goals is to obtain fulltime employment as a front-end developer",
+    skills: "Lisa's skills are HTML, CSS, and JS",
   });
 };
