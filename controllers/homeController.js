@@ -8,6 +8,10 @@ exports.showIndex = (req, res) => {
 
 exports.showResources = (req, res) => {
   // TODO: Implement render for showResources
+  res.render("resources", {
+    title: "resources",
+    resources
+  });
 };
 
 exports.showBio = (req, res) => {
@@ -17,4 +21,11 @@ exports.showBio = (req, res) => {
   // expertise
   // goals
   // skills
+  res.render("bio", {
+    title: "Lisa's bio",
+    intro: "Lisa's bio intro",
+    expertise: "Lisa's expertise",
+    goals: "Lisa's goals are...",
+    skills: "Lisa's skills are...",
+  });
 };

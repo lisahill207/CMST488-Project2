@@ -8,10 +8,12 @@
   </thead>
   <tbody>
     <!-- TODO: Start resources.forEach loop -->
+      <% resources.forEach((resource)=>{%>
     <tr>
-      <td><!-- TODO: Replace with resource.name --></td>
-      <td><!-- TODO: Replace with resource.provider --></td>
+      <td><%=resource.name%><!-- TODO: Replace with resource.name --></td>
+      <td><%=resource.provider%><!-- TODO: Replace with resource.provider --></td>
     </tr>
     <!-- TODO: End resources.forEach loop -->
+  <%});%>
   </tbody>
 </table>
